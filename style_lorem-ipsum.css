@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: white;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.quote {
+    font-style: italic;
+    text-align: right;
+    margin: 20px 0;
+    color: #555;
+}
+
+.quote_2 {
+    font-size: small;
+    text-align: right;
+    margin: 20px 0;
+    color: #555;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 30px 0;
+}
+
+p {
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.fade {
+    background: linear-gradient(90deg, #333 0%, transparent 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.initial-letter {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    float: left;
+    line-height: 1;
+    margin-right: 4px;
+    margin-top: 2px;
+    font-family: "Georgia", "Times New Roman", serif;
+    text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.3);
+}
